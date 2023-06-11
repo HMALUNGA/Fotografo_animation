@@ -15,13 +15,15 @@ header section figure figcaption p{margin-top: 1vh;text-align: center;}
 @media (max-width:831px){
 	header .direita h2{font-size: 5rem; text-align: center;}
 }
+/*
 @media (max-width:641px){
  header .direita h2{font-size: 4.8rem; text-align: center;}
-}
-@media (max-width:650px){
+}*/
+@media (max-width:680px){
     header{flex-direction: column; justify-content:flex-start; margin-top: 0; height: 100vh;}
 	header .esquerda{ width:100%; height: 100%; justify-content: center;align-items: center;}
 	header .direita{width: 100%; height: 100%;}
 	header section figure img{width:150px;height:150px; margin-top:20px; }
+	header section figure figcaption p{margin-bottom: 10px;}
 
 }
